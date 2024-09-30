@@ -1,0 +1,242 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.s1{
+    width: 100%;
+    background-image: url("./Pics/images/headphones_hero_1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+.s1 nav{
+    padding: 0 10rem;
+}
+.s1 a{
+    text-decoration: none;
+    float: right;
+    padding: 20px 10px;
+    color: white;
+}
+.s1 a:hover{
+    color: #FF6565;
+}
+.s1 a:active{
+    color: #FF6565;
+}
+.s1 img{
+    padding: 13px 10px;
+    width: 10rem;
+}
+.s1 .action{
+    width: 100%;
+    padding: 20% 30%;
+    text-align: center;
+}
+.s1 button{
+    background-color: rgba(255, 101, 101, 1);
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+    padding: 10px 25px;
+    border-style: none;
+    box-shadow: 1px 1px 30px black;
+    margin-top: 5%;
+
+}
+.s1 button:hover{
+    opacity: 0.9;
+}
+
+.s2{
+    width: 100%;
+    height: auto;
+    color: black;
+    background-color: white;
+}
+
+.s2 .whatWeDo{
+    text-align: center;
+    padding: 0 30rem;
+}
+.s2 .icon{
+    display: flex;
+    width:fit-content ;
+    padding: 0 10rem;
+    margin: 3% 0;
+}
+.s2 .i0{
+    width: auto;
+    text-align: center;
+    margin: 40px;
+}
+.s2 h2{
+    padding: 56px 0 19px 0;
+}
+
+
+.s3{
+    width: 100%;
+    height: auto;
+    color: white;
+    background-color: blue;
+    background-image: url('./Pics/images/headphones_hero_2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.s3 .result{
+    text-align: center;
+    padding: 0 30rem;
+}
+
+.s3 .percent{
+    display: flex;
+    padding: 0 10rem;
+    margin: auto;
+    width: fit-content;
+}
+.pentagon{
+    width: 25%;
+    padding: 3% 4%;
+    position: relative;
+    text-align: center;
+    margin-bottom: 3%;
+}
+.pentagon img{
+    width: 100%;
+}
+.s3 h1{
+    padding: 56px 0 19px 0;
+}
+
+.pentagon p {
+    position: absolute;
+    font-weight: bold;
+    font-size: 2rem;
+    top: 50%;
+    right: 50%;
+    translate: 50% -40%;
+}
+
+.pentagon p span{
+    font-size:small ;
+}
+
+.s4{
+    background-color: white;
+    color: black;
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+.s4 h1{
+    padding: 56px 0 19px 0;
+}
+.s4 input[type="text"],input[type="email"] {
+border-style:none none solid none;
+width: 25%;
+padding: 1% 0;
+}
+.s4 input[type="submit"]{
+    background-color: #FF6565;
+    color: white;
+    border-style: none;
+    border-radius: 20px;
+    margin: 3% 0 5% 0;
+    padding: 10px 20px;
+}
+
+footer img{
+    width: 15%;
+}
+footer{
+    background-color: rgba(7, 22, 41, 1);
+    padding: 5rem 10rem;
+}
+
+footer i {
+    float: right;
+    padding: 5px;
+    display: inline-block;
+    color: white;
+}
+
+@media screen and (max-width:600px) {
+    .s1 nav{
+        padding: 0;
+        text-align: center;
+    }
+    .s1 img{
+        padding: 20px 0 ;
+
+    }
+    .s1 a{
+        display: none;
+    }
+    .s1 .action{
+        padding: 20% 0 10% 0;
+    }
+    .s1 .s1p{
+        padding: 2% 5%;
+        line-height: 1.5;
+    }
+
+
+    .s2 .whatWeDo{
+        padding: 0 10% 10% 10%;
+        
+    }
+    .s2 .icon{
+        padding: 0;
+        flex-direction: column;
+        width: 100%;
+    }
+    .s2 .i0{
+        margin: 0;
+        padding: 5% 0;
+    }
+
+
+    .s3 .result{
+        padding: 0 5%;
+    }
+    .s3 .percent{
+        padding: 0;
+        flex-direction: column;
+        align-items: center;
+    }
+    .s3 .pentagon{
+        width: 45%;
+        padding: 3% 0;
+    }
+
+    .s4{
+        text-align: start;
+    }
+    .s4 h1 {
+        text-align: center;
+    }
+    .s4 form {
+        padding: 5%;
+        text-align: center;
+    }
+    .s4 input[type="text"],input[type="email"]{
+        padding: 4%;
+        font-size: medium;
+        width: 90%;
+    }
+    footer div{
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+    footer img{
+        width: 80%;
+    }
+    footer i {
+        font-size: 40px;
+    }
+
+}
